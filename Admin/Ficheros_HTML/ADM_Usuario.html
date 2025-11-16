@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Administracion Usuarios EliteCars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="../ImagenesCoches/LogoEliteCars.jpeg" type="image/jpeg">
+    <link rel="stylesheet" type="text/css" href="../Ficheros_CSS/Inicio_EliteCars.css">
+  </head>
+  <body>
+    <mi-cabecera></mi-cabecera>
+
+    <header>
+        <a id="AdministracionUsuarios">
+            <h1>Administracion de usuarios</h1>
+        </a>
+    </header>
+
+    <table>
+      <thead>
+          <tr>
+              <th>Nombre</th>
+              <th>Apellidos</th>
+              <th>Email</th>
+              <th>Teléfono</th>
+              <th>Usuario</th>
+              <th>Contraseña</th>
+              <th >Usuario Activo</th>
+              <th>Usuario Inactivo</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td contenteditable="true">Oscar</td>
+              <td contenteditable="true">Herreros Cañada</td>
+              <td contenteditable="true">osheca@alumni.uv.es</td>
+              <td contenteditable="true">123456789</td>
+              <td contenteditable="true">osheca</td>
+              <td contenteditable="true">123456</td>
+              <td><input type="radio" id="UsuarioActivo" name="ValidacionUsuarios1" value="UsuarioActivo" checked></td>
+              <td><input type="radio" id="UsuarioInactivo" name="ValidacionUsuarios1" value="UsuarioInactivo"></td>
+            </tr>
+            <tr>
+              <td contenteditable="true">Juan</td>
+              <td contenteditable="true">Pérez García</td>
+              <td contenteditable="true">juan.perez@example.com</td>
+              <td contenteditable="true">987654321</td>
+              <td contenteditable="true">juanperez</td>
+              <td contenteditable="true">contraseña123</td>
+              <td><input type="radio" id="UsuarioActivo1" name="ValidacionUsuarios2" value="UsuarioActivo" checked></td>
+              <td><input type="radio" id="UsuarioInactivo1" name="ValidacionUsuarios2" value="UsuarioInactivo"></td>
+          </tr>
+          <tr>
+            <td contenteditable="true">Ana</td>
+            <td contenteditable="true">Martínez López</td>
+            <td contenteditable="true">ana.martinez@example.com</td>
+            <td contenteditable="true">123456789</td>
+            <td contenteditable="true">anamartinez</td>
+            <td contenteditable="true">contraseña456</td>
+            <td><input type="radio" id="UsuarioActivo2" name="ValidacionUsuarios3" value="UsuarioActivo"></td>
+            <td><input type="radio" id="UsuarioInactivo2" name="ValidacionUsuarios3" value="UsuarioInactivo" checked></td>
+        </tr>
+        
+          
+      </tbody>
+  </table>
+
+    <mi-pie></mi-pie>
+    
+    <script src="../Ficheros_JS/ADM_Cabecera_EliteCars.js"></script>
+    <script src="../Ficheros_JS/ADM_PiePag_EliteCars.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
