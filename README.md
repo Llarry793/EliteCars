@@ -100,7 +100,7 @@ Al tratarse de un proyecto web estático no se necesita ningún servidor ni ento
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/elite-cars.git
+   git clone https://github.com/Llarry793/EliteCars.git
    ```
 2. Abre el fichero `FicherosHTML/InicioEliteCars.html` directamente en tu navegador, **o bien** sirve la carpeta raíz con cualquier servidor estático:
    ```bash
