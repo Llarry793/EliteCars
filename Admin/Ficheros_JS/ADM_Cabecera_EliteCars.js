@@ -13,13 +13,13 @@ class Cabecera extends HTMLElement {
             <div class="collapse navbar-collapse" id="navbarExampleDefault">
                 <div class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Practica1/Admin/Ficheros_HTML/ADM_Usuario.html">Usuario</a>
+                        <a class="nav-link active" href="../Ficheros_HTML/ADM_Usuario.html">Usuario</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Practica1/Admin/Ficheros_HTML/ADM_Pedidos.html">Pedidos</a>
+                        <a class="nav-link active" href="../Ficheros_HTML/ADM_Pedidos.html">Pedidos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Practica1/Admin/Ficheros_HTML/ADM_Productos.html">Productos</a>
+                        <a class="nav-link active" href="../Ficheros_HTML/ADM_Productos.html">Productos</a>
                     </li>
                 </div>
             </div>
