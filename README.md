@@ -18,17 +18,17 @@ Elite Cars es una tienda online de automóviles de lujo y alto rendimiento. El c
 
 | Inicio | Productos |
 |:------:|:---------:|
-| ![Inicio](screenshots/InicioEliteCars.jpg) | ![Productos](screenshots/ProductosEliteCars.jpg) |
+| ![Inicio](screenshots/ParteWeb/InicioEliteCars.png) | ![Productos](screenshots/ParteWeb/ProductosEliteCars.png) |
 
 | Carrito | Contacto |
 |:-------:|:--------:|
-| ![Carrito](screenshots/CarritoEliteCars.jpg) | ![Contacto](screenshots/ContactoEliteCars.jpg) |
+| ![Carrito](screenshots/ParteWeb/CarritoEliteCars.png) | ![Contacto](screenshots/ParteWeb/ContactoEliteCars.png) |
 
 ### Panel de administración
 
 | Administración de pedidos | Administración de usuarios |
 |:------------------------:|:---------------------------:|
-| ![Administración de pedidos](screenshots/AdministracionPedidosEliteCars.jpg) | ![Administración de usuarios](screenshots/AdministracionUsuariosEliteCars.jpg) |
+| ![Administración de pedidos](screenshots/ParteAdministracion/AdministracionPedidosEliteCars.png) | ![Administración de usuarios](screenshots/ParteAdministracion/AdministracionUsuariosEliteCars.png) |
 
 ***
 
