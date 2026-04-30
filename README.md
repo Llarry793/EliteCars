@@ -1,5 +1,7 @@
 # Elite Cars 🚗
 
+![Logo Elite Cars](Web/ImagenesCoches/LogoEliteCars.jpeg)
+
 **Sitio web de venta de coches de alta gama desarrollado con HTML, CSS, JavaScript y Bootstrap 5.** Elite Cars permite a los usuarios explorar un catálogo de vehículos exclusivos, gestionar su cuenta de usuario, añadir productos al carrito y consultar su historial de pedidos, todo en una interfaz responsive con componentes web reutilizables.
 
 ***
@@ -14,7 +16,20 @@ Elite Cars es una tienda online de automóviles de lujo y alto rendimiento. El c
 
 | Página de inicio | Catálogo de productos |
 |:----------------:|:--------------------:|
-| ![Página de inicio](screenshots/ParteWeb/InicioEliteCars.jpg) | ![Catálogo de productos](screenshots/ParteWeb/ProductosEliteCars.jpg) |
+| ![Página de inicio](screenshots/InicioEliteCars.jpg) | ![Catálogo de productos](screenshots/ProductosEliteCars.jpg) |
+
+***
+
+## Catálogo de vehículos
+
+| Vehículo | Imagen |
+|:--------:|:------:|
+| **Lamborghini Urus Mansory** | ![Lamborghini Urus Mansory](Web/ImagenesCoches/LamborghiniUrusMansory.jpg) |
+| **Porsche GT3 RS** | ![Porsche GT3 RS](Web/ImagenesCoches/PorscheGT3RS.jpg) |
+| **Mercedes G Brabus** | ![Mercedes G Brabus](Web/ImagenesCoches/MercedesGBrabus.jpg) |
+| **Mercedes Clase A AMG** | ![Mercedes Clase A AMG](Web/ImagenesCoches/MercedesClaseAAMG.jpg) |
+| **MINI John Cooper Works** | ![MINI John Cooper Works](Web/ImagenesCoches/MiniJohnCooperWorks.jpg) |
+| **Volkswagen Golf GTI Clubsport** | ![Volkswagen Golf GTI Clubsport](Web/ImagenesCoches/VWGolfGTIClubsport.jpg) |
 
 ***
 
@@ -34,22 +49,23 @@ Elite Cars es una tienda online de automóviles de lujo y alto rendimiento. El c
 
 ```
 EliteCars/
-├── FicherosHTML/
-│   ├── InicioEliteCars.html
-│   ├── EmpresaEliteCars.html
-│   ├── ContactoEliteCars.html
-│   ├── ProductosEliteCars.html
-│   ├── CarritoEliteCars.html
-│   ├── UsuarioEliteCars.html
-│   ├── UsuarioIniciadoEliteCars.html
-│   └── RegistrarUsuarioEliteCars.html
-├── FicherosJS/
-│   ├── Cabecera_EliteCars.js  # Custom Element <mi-cabecera>
-│   └── PiePag_EliteCars.js    # Custom Element <mi-pie>
-├── FicherosCSS/
-│   └── InicioEliteCars.css
-├── Imagenes/
-└── screenshots/           # Capturas de pantalla del README
+├── Web/
+│   ├── FicherosHTML/
+│   │   ├── InicioEliteCars.html
+│   │   ├── EmpresaEliteCars.html
+│   │   ├── ContactoEliteCars.html
+│   │   ├── ProductosEliteCars.html
+│   │   ├── CarritoEliteCars.html
+│   │   ├── UsuarioEliteCars.html
+│   │   ├── UsuarioIniciadoEliteCars.html
+│   │   └── RegistrarUsuarioEliteCars.html
+│   ├── FicherosJS/
+│   │   ├── Cabecera_EliteCars.js  # Custom Element <mi-cabecera>
+│   │   └── PiePag_EliteCars.js    # Custom Element <mi-pie>
+│   ├── FicherosCSS/
+│   │   └── InicioEliteCars.css
+│   └── ImagenesCoches/        # Imágenes de los vehículos y logo
+└── screenshots/            # Capturas de pantalla del README
 ```
 
 ***
@@ -95,7 +111,7 @@ Custom Element que inyecta el pie de página fijo con copyright y enlace a redes
    ```bash
    git clone https://github.com/Llarry793/EliteCars.git
    ```
-2. Abre `FicherosHTML/InicioEliteCars.html` en tu navegador o usa un servidor estático:
+2. Abre `Web/FicherosHTML/InicioEliteCars.html` en tu navegador o usa un servidor estático:
    ```bash
    python -m http.server 8080
    ```
