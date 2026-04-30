@@ -14,9 +14,21 @@ Elite Cars es una tienda online de automóviles de lujo y alto rendimiento. El c
 
 ## Capturas de pantalla
 
-| Página de inicio | Catálogo de productos |
-|:----------------:|:--------------------:|
-| ![Página de inicio](screenshots/InicioEliteCars.jpg) | ![Catálogo de productos](screenshots/ProductosEliteCars.jpg) |
+### Web pública
+
+| Inicio | Productos |
+|:------:|:---------:|
+| ![Inicio](screenshots/InicioEliteCars.jpg) | ![Productos](screenshots/ProductosEliteCars.jpg) |
+
+| Carrito | Contacto |
+|:-------:|:--------:|
+| ![Carrito](screenshots/CarritoEliteCars.jpg) | ![Contacto](screenshots/ContactoEliteCars.jpg) |
+
+### Panel de administración
+
+| Administración de pedidos | Administración de usuarios |
+|:------------------------:|:---------------------------:|
+| ![Administración de pedidos](screenshots/AdministracionPedidosEliteCars.jpg) | ![Administración de usuarios](screenshots/AdministracionUsuariosEliteCars.jpg) |
 
 ***
 
@@ -39,6 +51,7 @@ Elite Cars es una tienda online de automóviles de lujo y alto rendimiento. El c
 - 🛒 **Carrito de compra**: los usuarios pueden añadir vehículos al carrito antes de finalizar el pedido.
 - 👤 **Gestión de usuario**: formulario de inicio de sesión con campos de usuario y contraseña y enlace a registro de nueva cuenta.
 - 📋 **Panel de usuario registrado**: muestra datos personales e historial de pedidos, todo editable inline.
+- 🔐 **Panel de administración**: gestión de usuarios (alta, activación/desactivación) y administración de pedidos con estado Preparado/No Preparado.
 - 🧩 **Componentes web reutilizables**: `<mi-cabecera>` y `<mi-pie>` como Custom Elements de la Web Components API.
 - 📱 **Diseño responsive**: navbar que colapsa en móvil gracias a Bootstrap 5 (breakpoint `md`).
 - 🔗 **Redes sociales**: footer con iconos de Twitter, Instagram y Facebook (Font Awesome 5).
@@ -65,7 +78,8 @@ EliteCars/
 │   ├── FicherosCSS/
 │   │   └── InicioEliteCars.css
 │   └── ImagenesCoches/        # Imágenes de los vehículos y logo
-└── screenshots/            # Capturas de pantalla del README
+├── Admin/                     # Panel de administración
+└── screenshots/               # Capturas de pantalla del README
 ```
 
 ***
@@ -86,9 +100,9 @@ Custom Element que inyecta el pie de página fijo con copyright y enlace a redes
 |--------|---------|-------------|
 | Inicio | `InicioEliteCars.html` | Portada del sitio |
 | Empresa | `EmpresaEliteCars.html` | Información sobre la empresa |
-| Contacto | `ContactoEliteCars.html` | Formulario de contacto |
-| Productos | `ProductosEliteCars.html` | Catálogo de vehículos |
-| Carrito | `CarritoEliteCars.html` | Cesta de la compra |
+| Contacto | `ContactoEliteCars.html` | Formulario de contacto con mapa y datos |
+| Productos | `ProductosEliteCars.html` | Catálogo de vehículos con precios |
+| Carrito | `CarritoEliteCars.html` | Cesta de la compra con totales |
 | Usuario (login) | `UsuarioEliteCars.html` | Inicio de sesión y registro |
 | Panel de usuario | `UsuarioIniciadoEliteCars.html` | Datos del cliente y pedidos |
 
