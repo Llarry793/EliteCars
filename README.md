@@ -1,7 +1,5 @@
 # Elite Cars 🚗
 
-![Logo Elite Cars](Web/ImagenesCoches/LogoEliteCars.jpeg)
-
 **Sitio web de venta de coches de alta gama desarrollado con HTML, CSS, JavaScript y Bootstrap 5.** Elite Cars permite a los usuarios explorar un catálogo de vehículos exclusivos, gestionar su cuenta de usuario, añadir productos al carrito y consultar su historial de pedidos, todo en una interfaz responsive con componentes web reutilizables.
 
 ***
@@ -47,14 +45,14 @@ Elite Cars es una tienda online de automóviles de lujo y alto rendimiento. El c
 
 ## Características principales
 
-- 🏎️ **Catálogo de vehículos**: listado de coches de alta gama con imágenes, nombre y precio.
-- 🛒 **Carrito de compra**: los usuarios pueden añadir vehículos al carrito antes de finalizar el pedido.
-- 👤 **Gestión de usuario**: formulario de inicio de sesión con campos de usuario y contraseña y enlace a registro de nueva cuenta.
-- 📋 **Panel de usuario registrado**: muestra datos personales e historial de pedidos, todo editable inline.
-- 🔐 **Panel de administración**: gestión de usuarios (alta, activación/desactivación) y administración de pedidos con estado Preparado/No Preparado.
-- 🧩 **Componentes web reutilizables**: `<mi-cabecera>` y `<mi-pie>` como Custom Elements de la Web Components API.
-- 📱 **Diseño responsive**: navbar que colapsa en móvil gracias a Bootstrap 5 (breakpoint `md`).
-- 🔗 **Redes sociales**: footer con iconos de Twitter, Instagram y Facebook (Font Awesome 5).
+- **Catálogo de vehículos**: listado de coches de alta gama con imágenes, nombre y precio.
+- **Carrito de compra**: los usuarios pueden añadir vehículos al carrito antes de finalizar el pedido.
+- **Gestión de usuario**: formulario de inicio de sesión con campos de usuario y contraseña y enlace a registro de nueva cuenta.
+- **Panel de usuario registrado**: muestra datos personales e historial de pedidos, todo editable inline.
+- **Panel de administración**: gestión de usuarios (alta, activación/desactivación) y administración de pedidos con estado Preparado/No Preparado.
+- **Componentes web reutilizables**: `<mi-cabecera>` y `<mi-pie>` como Custom Elements de la Web Components API.
+- **Diseño responsive**: navbar que colapsa en móvil gracias a Bootstrap 5 (breakpoint `md`).
+- **Redes sociales**: footer con iconos de Twitter, Instagram y Facebook (Font Awesome 5).
 
 ***
 
